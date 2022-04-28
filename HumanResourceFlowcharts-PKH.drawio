@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T03:58:47.300Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="iBz4X10P9Z-IRZCTFHOd" version="17.4.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-28T04:16:42.900Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="ldrRMom72TqaBqRW04Ho" version="17.4.6" type="github" pages="3">
   <diagram id="eA1Eqj6x8OHCaZPQKf1M" name="UserStory">
     <mxGraphModel dx="1422" dy="1854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uXPesYncGwuY-eKEKNic-21" value="Staff Profile list" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="uXPesYncGwuY-eKEKNic-1">
-          <mxGeometry x="100" y="420" width="140" height="156" as="geometry" />
+          <mxGeometry x="130" y="420" width="140" height="156" as="geometry" />
         </mxCell>
         <mxCell id="uXPesYncGwuY-eKEKNic-22" value="Personal Information" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uXPesYncGwuY-eKEKNic-21">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -117,6 +117,37 @@
         <mxCell id="uXPesYncGwuY-eKEKNic-42" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" target="uXPesYncGwuY-eKEKNic-41" parent="uXPesYncGwuY-eKEKNic-1" source="uXPesYncGwuY-eKEKNic-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="900" y="388" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXPesYncGwuY-eKEKNic-47" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-1040" width="680" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uXPesYncGwuY-eKEKNic-48" value="HR manager should be able to see an overwiev of current staffs" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;" vertex="1" parent="uXPesYncGwuY-eKEKNic-47">
+          <mxGeometry width="680" height="40" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uXPesYncGwuY-eKEKNic-49" value="2" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=8;fillColor=#0085FC;strokeColor=none;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="uXPesYncGwuY-eKEKNic-48">
+          <mxGeometry x="1" y="0.5" width="25" height="16" relative="1" as="geometry">
+            <mxPoint x="-40" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXPesYncGwuY-eKEKNic-50" value="Able to filter by department" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;" vertex="1" parent="uXPesYncGwuY-eKEKNic-47">
+          <mxGeometry width="680" height="40" relative="1" as="geometry">
+            <mxPoint y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXPesYncGwuY-eKEKNic-51" value="2" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=8;fillColor=#0085FC;strokeColor=none;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="uXPesYncGwuY-eKEKNic-50">
+          <mxGeometry x="1" y="0.5" width="20" height="16" relative="1" as="geometry">
+            <mxPoint x="-38" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXPesYncGwuY-eKEKNic-52" value="Able to filter by active / inactive employees" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.bottomButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeWidth=1;resizeHeight=0;align=left;spacing=10;" vertex="1" parent="uXPesYncGwuY-eKEKNic-47">
+          <mxGeometry y="1" width="680" height="40" relative="1" as="geometry">
+            <mxPoint y="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXPesYncGwuY-eKEKNic-53" value="1" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=8;fillColor=#0085FC;strokeColor=none;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="uXPesYncGwuY-eKEKNic-52">
+          <mxGeometry x="1" y="0.5" width="20" height="16" relative="1" as="geometry">
+            <mxPoint x="-38" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
