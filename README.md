@@ -1,4 +1,4 @@
-## ✨ Ecommcerce-app
+## ✨ Human Resource Managment-app
 Open-source ecommcerce app for students who wants to learn more about Flask.
 <br />
 
