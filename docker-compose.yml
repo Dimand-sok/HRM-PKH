@@ -1,0 +1,56 @@
+version: "3.4"
+
+services:
+  db:
+    image: database
+    build:
+      context: ./database
+      dockerfile: ./Dockerfile
+      target: development
+    container_name: database
+    environment:
+      POSTGRES_USER: "ecdbadmin"
+      POSTGRES_PASSWORD: "testP1ssW0rd"
+      POSTGRES_DB: "ecdatastorage"
+    networks:
+      - ecommerce
+
+  api:
+    image: api
+    build:
+      context: ./api
+      dockerfile: ./Dockerfile
+      target: development
+    environment:
+      DB_NAME: ecdatastorage
+      DB_USERNAME: ecdbadmin
+      DB_PASSWORD: testP1ssW0rd
+    container_name: api
+    networks:
+      - ecommerce
+    ports:
+      - 5678:5678
+    volumes:
+      - ./api:/api
+      - ./api/entrypoint.sh:/entrypoint.sh
+  
+  proxy:
+    image: proxy
+    build:
+      context: ./nginx
+      dockerfile: ./Dockerfile
+      target: development
+    container_name: proxy
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      - ecommerce
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - api
+
+networks:
+  ecommerce:
+    driver: bridge
